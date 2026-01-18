@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Playwright generated files
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Optional - if you generate screenshots or traces
+/test-output/
+/screenshots/
+/traces/
