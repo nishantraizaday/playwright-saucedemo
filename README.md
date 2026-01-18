@@ -1,5 +1,8 @@
 # Playwright Automation Framework – SauceDemo
 
+![Playwright Tests](https://github.com/nishantraizaday/playwright-saucedemo/actions/workflows/playwright.yml/badge.svg)
+
+
 🚀 **End-to-End Test Automation Framework** built using **Playwright + JavaScript** following **Page Object Model (POM)** design principles.
 
 This project demonstrates real-world automation testing skills including UI automation, test structuring, fixtures, reusable helpers, and CI integration.
