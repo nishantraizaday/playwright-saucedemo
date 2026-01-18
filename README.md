@@ -24,6 +24,31 @@ This project demonstrates real-world automation testing skills including UI auto
 
 ## 📁 Project Structure
 
+```
+playwright-saucedemo/
+│
+├─ tests/
+│ ├─ fixtures/
+│ │ └─ authFixture.js
+│ ├─ helpers/
+│ │ ├─ cartHelper.js
+│ │ ├─ checkoutHelper.js
+│ │ └─ priceHelper.js
+│ ├─ cart.spec.js
+│ ├─ checkout.spec.js
+│ └─ products.spec.js
+│
+├─ pages/
+│ ├─ cartPage.js
+│ ├─ checkoutPage.js
+│ ├─ loginPage.js
+│ └─ productsPage.js
+│
+├─ .gitignore
+├─ package.json
+├─ package-lock.json
+└─ README.md
+```
 
 ---
 
