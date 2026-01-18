@@ -183,36 +183,3 @@ Portfolio Project for demonstrating Playwright automation expertise.
 
 This project is for educational and portfolio purposes.
 
-
----
-
-# STEP 3 – Customize It
-
-Before committing:
-
-Replace:
-
-
-
-git clone <your-repo-url>
-
-
-with your actual GitHub repo link.
-
-And optionally add:
-
-- Your LinkedIn  
-- Email  
-- GitHub profile link  
-
----
-
-# STEP 4 – Commit README
-
-Run in terminal:
-
-```bash
-git add README.md
-git commit -m "Add professional README"
-git push
-
