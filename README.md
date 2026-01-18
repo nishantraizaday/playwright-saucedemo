@@ -33,9 +33,11 @@ playwright-saucedemo/
 │ ├─ helpers/
 │ │ ├─ cartHelper.js
 │ │ ├─ checkoutHelper.js
-│ │ └─ priceHelper.js
+│ │ ├─ priceHelper.js
+│ │ └─ productHelper.js
 │ ├─ cart.spec.js
 │ ├─ checkout.spec.js
+│ ├─ login.spec.js
 │ └─ products.spec.js
 │
 ├─ pages/
