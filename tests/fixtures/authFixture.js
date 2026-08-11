@@ -5,7 +5,7 @@ export const test = base.extend({
   loggedInPage: async ({ page }, use) => {
     const loginPage = new LoginPage(page);
 
-    await loginPage.goto('https://www.saucedemo.com/');
+    await loginPage.goto('/');
     await loginPage.login('standard_user', 'secret_sauce');
 
     // Ensure login succeeded

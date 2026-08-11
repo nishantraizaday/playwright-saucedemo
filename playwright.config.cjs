@@ -17,7 +17,7 @@ export default defineConfig({
   use: {
     headless: true,      // 👈 THIS IS THE IMPORTANT LINE
     /* Base URL to use in actions like `await page.goto('/')`. */
-    baseURL: 'https://www.saucedemo.com',
+    baseURL: process.env.BASE_URL || "https://www.saucedemo.com",
     
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
@@ -72,8 +72,8 @@ export default defineConfig({
   // },
 });
 
-module.exports = {
-  use: {
-    headless: true,  // Browser will be visible
-  },
-};
+//module.exports = {
+ // use: {
+   // headless: true,  // Browser will be visible
+ // },
+//};
